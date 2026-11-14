@@ -7,6 +7,16 @@ export type Env = {
   FREEBUFF_CLIENT_ID?: string
   FREEBUFF_ISSUER?: string
   APP_ORIGIN?: string
+  GOOGLE_PLACES_API_KEY?: string
+  MAILGUN_API_KEY?: string
+  MAILGUN_DOMAIN?: string
+  MAILGUN_WEBHOOK_KEY?: string
+  MAILGUN_BASE_URL?: string
+  MAIL_FROM?: string
+  MAIL_REPLY_DOMAIN?: string
+  OWNER_NOTIFY_EMAIL?: string
+  CRON_SECRET?: string
+  DAILY_SEND_CAP?: string
 }
 
 const LOOPBACK = new Set(['localhost', '127.0.0.1', '[::1]'])
